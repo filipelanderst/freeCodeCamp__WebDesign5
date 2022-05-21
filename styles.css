@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mrs+Saint+Delafield&display=swap");
+
+:root {
+  --VanillaIce: #ecd6d9;
+  ---BeautyBush: #f3c2bd;
+  --NewYorkPink: #e38a8a;
+  --Hemp: #997976;
+  --DonkeyBrown: #a69777;
+  --TimberWolf: #dfd6cf;
+}
+
+HTML {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: justify;
+  hyphens: auto;
+  color: #555;
+  font-family: "Montserrat";
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+
+/* *** *** *** *** *** Header | Início *** *** *** *** *** */
+
+#navbar {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding-top: 1rem;
+}
+
+#navbar img {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding-right: 2rem;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: var(--NewYorkPink);
+  border-bottom: 1px solid;
+}
+
+/* *** *** *** *** *** Header | FIM *** *** *** *** *** */
+
+/* *** *** *** *** *** Main | Início *** *** *** *** *** */
+
+h1 {
+  margin: 5rem auto 2rem auto;
+  font-size: 2rem;
+  color: var(--NewYorkPink);
+}
+
+h1 span {
+  font-family: "Mrs Saint Delafield";
+  font-size: 3rem;
+  font-weight: 400;
+  color: #777;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  min-width: 100%;
+  margin-top: 2rem;
+}
+
+.project-tile {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  border: 1px solid #bbb;
+  border-radius: 1rem;
+}
+
+.project-tile h2 {
+  font-size: 1.25rem;
+  display: block;
+}
+
+.project-tile img {
+  object-fit: cover;
+  height: 200px;
+  max-width: 400px;
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.project-tile a {
+  color: var(--NewYorkPink);
+  text-decoration: none;
+  border-bottom: 1px solid;
+  padding-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.project-description {
+  padding: 1rem;
+}
+
+.project-tile h2 {
+  text-align: start;
+}
+
+.project-tile span {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #777;
+}
+
+.skills {
+  margin-top: 3rem;
+}
+
+.skills h3 {
+  text-align: start;
+}
+
+.skills img {
+  max-width: 25px;
+  padding-right: 0.5rem;
+}
+
+.skills-icon {
+  display: flex;
+  margin-bottom: -1rem;
+}
+
+.skills icon h3 .skills-frontEnd {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 9fr;
+}
+
+/* *** *** *** *** *** Main | FIM *** *** *** *** *** */
+
+/* *** *** *** *** *** @Footer | Início *** *** *** *** *** */
+
+.footer {
+  margin-top: 2rem;
+  text-align: center;
+  border-top: 1px solid var(--NewYorkPink);
+}
+
+/* *** *** *** *** *** @Footer | FIM *** *** *** *** *** */
+
+/* *** *** *** *** *** @Media | Início *** *** *** *** *** */
+
+@media (max-width: 1000px) {
+  .projects {
+    display: flex;
+    overflow-x: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    display: grid;
+    margin: 5rem auto 0rem auto;
+  }
+
+  #navbar {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 350px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* *** *** *** *** *** @Media | FIM *** *** *** *** *** */
