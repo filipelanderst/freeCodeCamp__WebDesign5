@@ -6,4 +6,4 @@ __Link da página:__ [https://flx-lander7.github.io/freeCodeCamp__WebDesign5/](h
 
 <br>
 
-![Captura de tela](https://raw.githubusercontent.com/flx-lander7/freeCodeCamp__WebDesign5/main/CapturaDeTela__freeCodeCamp-web5.png)
+![Captura de tela](https://raw.githubusercontent.com/flx-lander7/freeCodeCamp__WebDesign5/main/CapturaDeTela__freeCodeCamp-web5(2).png)
