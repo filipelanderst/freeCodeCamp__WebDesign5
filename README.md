@@ -1,4 +1,4 @@
-# freeCodeCamp__WebDesign3 (Landing page produto)
+# freeCodeCamp__WebDesign5 (Landing page produto)
 
 Projeto feito no curso de __Responsive Web Design__ do __freeCodeCamp__.
 
